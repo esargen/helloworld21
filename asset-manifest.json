@@ -1,24 +1,30 @@
 {
   "files": {
-    "main.css": "/helloworld21/static/css/main.59530eb6.chunk.css",
-    "main.js": "/helloworld21/static/js/main.d21e2967.chunk.js",
-    "main.js.map": "/helloworld21/static/js/main.d21e2967.chunk.js.map",
-    "runtime-main.js": "/helloworld21/static/js/runtime-main.48c2ab0c.js",
-    "runtime-main.js.map": "/helloworld21/static/js/runtime-main.48c2ab0c.js.map",
-    "static/js/2.00e444dc.chunk.js": "/helloworld21/static/js/2.00e444dc.chunk.js",
-    "static/js/2.00e444dc.chunk.js.map": "/helloworld21/static/js/2.00e444dc.chunk.js.map",
-    "static/js/3.5f5babf3.chunk.js": "/helloworld21/static/js/3.5f5babf3.chunk.js",
-    "static/js/3.5f5babf3.chunk.js.map": "/helloworld21/static/js/3.5f5babf3.chunk.js.map",
+    "main.css": "/helloworld21/static/css/main.9f500dbd.chunk.css",
+    "main.js": "/helloworld21/static/js/main.afbbf98f.chunk.js",
+    "main.js.map": "/helloworld21/static/js/main.afbbf98f.chunk.js.map",
+    "runtime-main.js": "/helloworld21/static/js/runtime-main.66cfbdeb.js",
+    "runtime-main.js.map": "/helloworld21/static/js/runtime-main.66cfbdeb.js.map",
+    "static/js/2.4eabd7d5.chunk.js": "/helloworld21/static/js/2.4eabd7d5.chunk.js",
+    "static/js/2.4eabd7d5.chunk.js.map": "/helloworld21/static/js/2.4eabd7d5.chunk.js.map",
+    "static/js/3.cdc33b83.chunk.js": "/helloworld21/static/js/3.cdc33b83.chunk.js",
+    "static/js/3.cdc33b83.chunk.js.map": "/helloworld21/static/js/3.cdc33b83.chunk.js.map",
     "index.html": "/helloworld21/index.html",
-    "static/css/main.59530eb6.chunk.css.map": "/helloworld21/static/css/main.59530eb6.chunk.css.map",
-    "static/js/2.00e444dc.chunk.js.LICENSE.txt": "/helloworld21/static/js/2.00e444dc.chunk.js.LICENSE.txt",
+    "static/css/main.9f500dbd.chunk.css.map": "/helloworld21/static/css/main.9f500dbd.chunk.css.map",
+    "static/js/2.4eabd7d5.chunk.js.LICENSE.txt": "/helloworld21/static/js/2.4eabd7d5.chunk.js.LICENSE.txt",
+    "static/media/SoCLogo.9b77e9ff.png": "/helloworld21/static/media/SoCLogo.9b77e9ff.png",
     "static/media/Tempsite-device.bb2c8f80.png": "/helloworld21/static/media/Tempsite-device.bb2c8f80.png",
+    "static/media/aboutdevice.8c3704ca.png": "/helloworld21/static/media/aboutdevice.8c3704ca.png",
+    "static/media/contactdevice.85399bb8.png": "/helloworld21/static/media/contactdevice.85399bb8.png",
+    "static/media/homebutton.446fc4b4.svg": "/helloworld21/static/media/homebutton.446fc4b4.svg",
+    "static/media/homebutton_down.5cd1367b.svg": "/helloworld21/static/media/homebutton_down.5cd1367b.svg",
+    "static/media/partnerdevice.72147853.png": "/helloworld21/static/media/partnerdevice.72147853.png",
     "static/media/web_no_console.d7ffb2d8.png": "/helloworld21/static/media/web_no_console.d7ffb2d8.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.48c2ab0c.js",
-    "static/js/2.00e444dc.chunk.js",
-    "static/css/main.59530eb6.chunk.css",
-    "static/js/main.d21e2967.chunk.js"
+    "static/js/runtime-main.66cfbdeb.js",
+    "static/js/2.4eabd7d5.chunk.js",
+    "static/css/main.9f500dbd.chunk.css",
+    "static/js/main.afbbf98f.chunk.js"
   ]
 }
