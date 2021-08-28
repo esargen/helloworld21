@@ -1,0 +1,82 @@
+#what {
+  background-color: #294956;
+  margin: 0;
+  padding: 0;
+  height: 60vh;
+  overflow-x: hidden;
+}
+
+.whathead {
+  //mobile
+  @media only screen and (max-width: 700px) {
+    font-size: 24pt;
+    margin: 0;
+    padding-bottom: 15pt;
+    color: #c1f599;
+  }
+  //web
+  @media only screen and (min-width: 700px) {
+    font-size: 24pt;
+    margin: 0;
+    padding-bottom: 15pt;
+    color: #c1f599;
+  }
+}
+
+.whatbody {
+  //mobile
+  @media only screen and (max-width: 700px) {
+    font-size: 14pt;
+    font-family: Obvia, sans-serif;
+    margin: 0;
+    text-align: justify;
+    color: #c1f599;
+
+  }
+  //web
+  @media only screen and (min-width: 700px) {
+    font-size: 14pt;
+    font-family: Obvia, sans-serif;
+    margin: 0;
+    text-align: left;
+    color: #c1f599;
+    max-width: 65%;
+
+  }
+}
+
+.whattextbody {
+  //mobile
+  @media only screen and (max-width: 700px) {
+    max-width: 85%;
+    margin-left: 5vw;
+    padding-top: 5vh;
+
+  }
+  //web
+  @media only screen and (min-width: 700px) {
+    max-width: 50%;
+    text-align: left;
+    margin-left: 10vw;
+    padding-top: 5vw;
+    z-index: 4;
+    position: relative;
+
+  }
+}
+
+#aboutdevice {
+  @media only screen and (max-width: 700px) {
+    display: none;
+  }
+  @media only screen and (min-width: 700px) {
+    position: absolute;
+    z-index: 1;
+    height: 115vh;
+    width: 100vw;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: -70vh;
+  }
+}

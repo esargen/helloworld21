@@ -1,0 +1,107 @@
+html {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: lores-12, sans-serif;
+  font-style: normal;
+  padding: 0;
+}
+
+#faq {
+  background-color: #294956;
+  margin: 0;
+  padding: 0;
+}
+
+.faqhead {
+  transform: scaleY(2);
+  //mobile
+  @media only screen and (max-width: 700px) {
+    font-size: 36pt;
+    margin: 0;
+    padding-bottom: 15pt;
+    color: #c1f599;
+  }
+  //web
+  @media only screen and (min-width: 700px) {
+    font-size: 36pt;
+    margin: 0;
+    padding-bottom: 15pt;
+    color: #c1f599;
+  }
+}
+
+#faqblock {
+  //mobile
+  @media only screen and (max-width: 700px) {
+    font-size: 14pt;
+    font-family: Obvia, sans-serif;
+    margin: 0;
+    text-align: justify;
+    color: #c1f599;
+
+  }
+  //web
+  @media only screen and (min-width: 700px) {
+    font-size: 14pt;
+    font-family: Obvia, sans-serif;
+    text-align: left;
+    color: #c1f599;
+    margin-top: 10vh;
+    padding-bottom: 20vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+}
+
+.faqbody {
+  //mobile
+  @media only screen and (max-width: 700px) {
+    max-width: 95%;
+    margin-left: 5vw;
+    padding-top: 5vh;
+
+  }
+  //web
+  @media only screen and (min-width: 700px) {
+    max-width: 65%;
+    text-align: left;
+    margin-left: 10vw;
+    padding-top: 10vw;
+  }
+}
+
+.question {
+  //mobile
+  @media only screen and (max-width: 700px) {
+    text-align: left;
+    max-width: 85%;
+  }
+  //web
+  @media only screen and (min-width: 700px) {
+  max-width: 45%;
+}
+  padding-bottom: 3vh;
+
+  div {
+    margin-top: 1vh;
+  }
+
+  .questionq {
+    font-family: lores-12, sans-serif;
+    font-size: 21pt;
+    font-weight: bold;
+    color: #D6634C;
+  }
+
+  .questiona {
+    font-family: obvia, sans-serif;
+    font-size: 14pt;
+    color: #c1f599;
+  }
+}
