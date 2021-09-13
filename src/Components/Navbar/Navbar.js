@@ -23,6 +23,10 @@ const Navbar = (props) => {
     };
   }, [location]);
 
+  function scrollHigher() {
+    scroll.scrollToTop();
+  };
+
 
   function linkUp() {
     return (
@@ -31,7 +35,7 @@ const Navbar = (props) => {
         <div className="navtag" ><Link2  to="about" spy={true} smooth={true}>About</Link2></div>
         <div className="navtag" ><Link2  to="partner" spy={true} smooth={true}>Partners</Link2></div>
         <div className="navtag" ><Link2  to="contact" spy={true} smooth={true}>Contact</Link2></div>
-        <div className="navtag faq" ><Link to="/faq">FAQ</Link></div>
+        <div className="navtag faq" onClick={scrollHigher}><Link to="/faq">FAQ</Link></div>
       </>
     )
   };

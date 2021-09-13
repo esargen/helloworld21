@@ -1,5 +1,6 @@
 import './Faq.scss';
 import faqcontent from './Faq.json';
+import faqbg from './faqbg2.png';
 
 function Faq() {
 
@@ -13,7 +14,7 @@ function Faq() {
   );
 
   return(
-    <div id="faq">
+    <div id="faq" style={{backgroundImage:`url(${faqbg})`}}>
       <div className="faqbody">
         <h2 className="faqhead">We've got answers!</h2>
         <div id="faqblock">

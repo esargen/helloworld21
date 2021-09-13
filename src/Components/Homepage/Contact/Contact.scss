@@ -5,14 +5,15 @@
       background-color: #294956;
       margin: 0;
       padding: 0;
-      height: 100vh;
+      height: 50vh;
     }
     //desktop
     @media only screen and (min-width: 700px) {
       background-color: #294956;
       margin: 0;
       padding: 0;
-      height: 100vh;background-color: #294956;
+      height: 100vh;
+      background-color: #294956;
       margin: 0;
       padding: 0;
       height: 90vh;
@@ -23,9 +24,8 @@
   //mobile
   @media only screen and (max-width: 700px) {
     max-width: 85%;
-    margin-left: 5vw;
     padding-top: 5vh;
-
+    margin: auto;
   }
   //web
   @media only screen and (min-width: 700px) {
@@ -39,11 +39,12 @@
 .linkWrapper {
     // mobile
     @media only screen and (max-width: 700px) {
-        width: 100vw;
         display: flex;
         flex-direction: row;
         justify-content: center;
         flex-wrap: wrap;
+        width: 85vw;
+        margin: auto;
     }
     //desktop
     @media only screen and (min-width: 700px) {
@@ -81,18 +82,22 @@
 }
 
 #contact h3 {
-  transform: scaleY(2);
-
+  font-family: lores-15-bold-alt-oakland, sans-serif;
+  font-weight: 400;
+  font-style: normal;
   //mobile
   @media only screen and (max-width: 700px) {
-    font-size: 36pt;
+    font-size: 48pt;
     margin: 0;
     padding-bottom: 15pt;
+    padding-top: 25pt;
     color: #F7AEC9;
+    width: 100%;
+    text-align: left;
   }
   //web
   @media only screen and (min-width: 700px) {
-    font-size: 72pt;
+    font-size: 96pt;
     margin: 0;
     padding-bottom: 15pt;
     color: #F7AEC9;
@@ -103,7 +108,7 @@
 #socials {
     // mobile
     @media only screen and (max-width: 700px) {
-        width: 50%;
+        width: 100%;
         display: flex;
         justify-content: space-between;
         margin-right: 0vw;
@@ -122,24 +127,28 @@
 #socials .social {
     // mobile
     @media only screen and (max-width: 700px) {
+      i {
+        font-size: 32pt;
+        transition: .25s ease;
+        color: #c1f599;
+    }
     }
     //desktop
     @media only screen and (min-width: 700px) {
+      i {
+        font-size: 32pt;
+        transition: .25s ease;
+        color: #376564;
+        &:hover {
+          font-size: 36pt;
+          transition: .5s ease;
+          color: #c1f599;
+        }
+    }
     }
     text-transform: none;
     text-align: center;
     z-index: 5;
-    i {
-      font-size: 32pt;
-      transition: .25s ease;
-      color: #376564;
-      // mobile
-      &:hover {
-        font-size: 36pt;
-        transition: .5s ease;
-        color: #c1f599;
-      }
-  }
 }
 
 #socialIcon{

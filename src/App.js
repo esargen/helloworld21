@@ -12,9 +12,6 @@ function App() {
   const [matches, setMatches] = useState(true);
   const [nav, growNav] = useState(false);
 
-  useEffect(()=> {
-    media.matches ? growNav("100%") : growNav("0%");
-  }, [])
 
   function openNav() {
     growNav("100%");

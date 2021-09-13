@@ -1,6 +1,6 @@
 import './Partners.scss';
 import logo from './SoCLogo.png';
-import partnerdevice from './partnerdevice.png';
+import partnerdevice from './thankyou.png';
 
 function Partners() {
   return (

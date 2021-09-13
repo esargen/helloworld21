@@ -15,6 +15,7 @@ const Landing = (props) => {
     return (
       <div id="title">
         <div>HelloWorld 2021</div>
+        <div id="eventdate">October 16</div>
         <div id="subtitle">
           <div>Become a hacker</div>
           <div>Become a mentor</div>
