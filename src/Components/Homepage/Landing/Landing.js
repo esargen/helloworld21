@@ -17,8 +17,8 @@ const Landing = (props) => {
         <div>HelloWorld 2021</div>
         <div id="eventdate">October 16</div>
         <div id="subtitle">
-          <div>Become a hacker</div>
-          <div>Become a mentor</div>
+          <div><a href="https://forms.gle/vb3dLak3M8b8dhFx8">Become a hacker</a></div>
+          <div><a href="https://docs.google.com/forms/d/e/1FAIpQLScocyUsqDqTnUCfqYat99ly1W6hFI3-RC8jmom8Wgf0b64ppw/viewform?usp=sf_link">Become a mentor</a></div>
         </div>
       </div>
   )};

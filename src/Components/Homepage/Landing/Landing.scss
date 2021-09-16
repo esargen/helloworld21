@@ -240,7 +240,10 @@ header {
         margin: auto;
         margin-bottom: 3vh;
         padding: 5px;
-        color: #294956;
+        a {
+          text-decoration: none;
+          color: #294956;
+        }
       }
       > :nth-child(1) {
         background-color: #fee28a;
@@ -269,7 +272,7 @@ header {
   #eventdate {
     font-size: 24pt;
     font-family: obvia, sans-serif;
-    text-align: left;
+    text-align: center;
     font-weight: 500;
   }
   #subtitle {
@@ -285,6 +288,15 @@ header {
       div {
         margin-bottom: 3vh;
         padding: 10px;
+        transition: .25s;
+        &:hover {
+          transform: scale(1.025);
+          transition: .5s;
+        }
+        a {
+          text-decoration: none;
+          color: #294956;
+        }
       }
       > :nth-child(1) {
         background-color: #fee28a;

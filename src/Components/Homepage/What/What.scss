@@ -87,3 +87,22 @@
     margin-top: -80vh;
   }
 }
+
+.tofaq {
+  font-size: 18pt;
+  font-weight: bold;
+  text-decoration: none !important;
+  margin-top: 1em;
+  transition: .25s;
+  a {
+    text-decoration: none !important;
+    color: #294956;
+    background-color: #c1f599;
+    padding: 5px;
+    border-radius: 5px;
+  }
+  &:hover {
+    transform: scale(1.025);
+    transition: .5s;
+  }
+}
