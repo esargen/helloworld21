@@ -1,7 +1,7 @@
 import Homepage from './Components/Homepage/Homepage.js';
 import Faq from './Components/Faq/Faq.js';
 import './App.css';
-import { Route, Switch } from 'react-router-dom';
+import { HashRouter, Route, Switch } from 'react-router-dom';
 import Navbar from './Components/Navbar/Navbar.js';
 import { useState, useEffect } from 'react';
 
@@ -24,18 +24,20 @@ function App() {
   }
 
   return (
-  <div>
-    <div id="hamburger" onClick={ () => isgrow ? closeNav() : openNav() }>
-      <div></div>
-      <div></div>
-      <div></div>
-    </div>
-    <Navbar nav={nav} />
-    <Switch>
-      <Route path='/helloworld21' component={Homepage} />
-      <Route path='/faq' component={Faq} />
-    </Switch>
-  </div>
+    <HashRouter basename='/'>
+          <div>
+            <div id="hamburger" onClick={ () => isgrow ? closeNav() : openNav() }>
+              <div></div>
+              <div></div>
+              <div></div>
+            </div>
+            <Navbar nav={nav} />
+            <Switch>
+              <Route exact path='/' component={Homepage} />
+              <Route path='/faq' component={Faq} />
+            </Switch>
+          </div>
+    </HashRouter>
 );
 }
 

@@ -16,7 +16,7 @@ const Faqhome = (props) => {
   };
 
   return (
-    <Link to="/helloworld21" spy={true} smooth={true} onClick={scrollUp}><div className="homebutton navtag" style={{backgroundImage: `url(${button})`}}></div></Link>
+    <Link to="/" spy={true} smooth={true} onClick={scrollUp}><div className="homebutton navtag" style={{backgroundImage: `url(${button})`}}></div></Link>
   )
 }
 
