@@ -14,7 +14,7 @@ function Faq() {
   );
 
   return(
-    <div id="faq" style={{backgroundImage:`url(${faqbg})`}}>
+    <div id="faq" >
       <div className="faqbody">
         <h2 className="faqhead">We've got answers!</h2>
         <div id="faqblock">

@@ -1,11 +1,13 @@
 import './Contact.scss';
-import contactdevice from './contactdevice.png';
+import contactdevice from './binch.png';
 
 function Contact() {
 
   return (
     <div id="contact" className="text">
-      <div id="contactdevice" style={{backgroundImage: `url(${contactdevice})`}}></div>
+      <div id="contactdevice">
+        <img src={contactdevice} alt="bench" />
+      </div>
       <div className="contacttextbody">
         <div className="linkWrapper">
             <div id="socials">
