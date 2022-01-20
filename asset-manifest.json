@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.04a84f9e.chunk.css",
-    "main.js": "/static/js/main.b91af081.chunk.js",
-    "main.js.map": "/static/js/main.b91af081.chunk.js.map",
+    "main.js": "/static/js/main.7d5ec930.chunk.js",
+    "main.js.map": "/static/js/main.7d5ec930.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.fbd9815c.js",
     "runtime-main.js.map": "/static/js/runtime-main.fbd9815c.js.map",
     "static/js/2.078a408d.chunk.js": "/static/js/2.078a408d.chunk.js",
@@ -15,6 +15,7 @@
     "static/media/AWS_Logo.bde7636e.png": "/static/media/AWS_Logo.bde7636e.png",
     "static/media/Blackbaud Logo.9cdbedc0.png": "/static/media/Blackbaud Logo.9cdbedc0.png",
     "static/media/GLS new_png (1).7f411184.png": "/static/media/GLS new_png (1).7f411184.png",
+    "static/media/Logo-darkblue.9687abeb.png": "/static/media/Logo-darkblue.9687abeb.png",
     "static/media/SoCLogo.9b77e9ff.png": "/static/media/SoCLogo.9b77e9ff.png",
     "static/media/Softdocs-Logo-RGB-Solid.16646691.png": "/static/media/Softdocs-Logo-RGB-Solid.16646691.png",
     "static/media/binch.9e87adc6.png": "/static/media/binch.9e87adc6.png",
@@ -32,6 +33,6 @@
     "static/js/runtime-main.fbd9815c.js",
     "static/js/2.078a408d.chunk.js",
     "static/css/main.04a84f9e.chunk.css",
-    "static/js/main.b91af081.chunk.js"
+    "static/js/main.7d5ec930.chunk.js"
   ]
 }
