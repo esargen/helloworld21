@@ -7,6 +7,7 @@ import gls from './new/GLS new_png (1).png';
 import softdocs from './new/Softdocs-Logo-RGB-Solid.png';
 import partnerdevice from './new/cactus.png';
 import mule from './new/sticker-mule-logo.png';
+import assembly from './new/Logo-darkblue.png';
 
 ge ? console.log(ge): console.log("no dice");
 
@@ -25,6 +26,7 @@ function Partners() {
             <a href="https://glsauto.com/" target="_blank"><div><img src={gls} alt="gls"/></div></a>
             <a href="https://www.softdocs.com/" target="_blank"><div><img src={softdocs} alt="softdocs"/></div></a>
             <a href="http://hackp.ac/mlh-stickermule-hackathons" target="_blank"><div><img src={mule} alt="stickermule"/></div></a>
+            <a href="http://hackp.ac/mlh-stickermule-hackathons" target="_blank"><div><img src={assembly} alt="assembly_ai"/></div></a>
           </div>
         </div>
       </div>
